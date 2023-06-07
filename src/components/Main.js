@@ -3,7 +3,7 @@ import pin from "../images/pin-icon.png"
 
 function Main(props) {
     return(
-        <div>
+        <div className="main-body">
             <img src={props.item.imageUrl} alt="" className="image"/>
             <div className="info">
             <img src={pin} alt="" className="pin"/>
