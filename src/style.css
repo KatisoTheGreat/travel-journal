@@ -28,11 +28,6 @@ nav {
 
 /* Main section */
 
-.main-body {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .main-section {
   padding: 50px;
   display: inline-block;
@@ -49,11 +44,23 @@ nav {
   width: 9px;
 }
 
+.location {
+  font-size: 10.24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 12px;
+  float: right;
+}
+
 .info {
   display: inline-block;
   margin-right: 22px;
   height: 168px;
   padding: 20px;
+}
+
+.info2 {
+  display: inline;
 }
 
 .link {
